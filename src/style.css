@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "flyonui";
+
+/* Required ONLY if you use FlyonUI JS components */
+@import "flyonui/variants.css";
+@source "flyonui/dist/index.js";
+@plugin "@iconify/tailwind4";
